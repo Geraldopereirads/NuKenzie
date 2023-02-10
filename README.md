@@ -1,10 +1,11 @@
 # NuKenzie
 
-## Primeiro projeto feito utilizando o conseito Mobile First e renderização via DOM utilizando JavaScript puro.
-## Tecnologias: HTML, CSS e JavaScript
+## projeto feito utilizando o conseito Mobile First.
+## Esse é o Nu Kenzie, uma aplicação construída para fazer o gerenciamento de gastos, cadastrando entradas e saídas.
+## Tecnologias: HTML, CSS, JavaScript e ReactJs
 
 
-### Link KenzieFlix: https://nu-kenzie-9hskzc9zl-geraldopereirads.vercel.app/
+### Link NuKenzie: https://nu-kenzie-9hskzc9zl-geraldopereirads.vercel.app/
 
 
 ![MainDeslogado](https://user-images.githubusercontent.com/110185110/218104122-3c954a5e-85a8-4489-a08f-2bdfa9174e50.PNG)
