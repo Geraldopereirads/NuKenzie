@@ -1,0 +1,175 @@
+.containerAllForm {
+    margin: 30px auto;
+
+    width: 98%;
+}
+
+.containerForm {
+    width: 98%;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: solid 1px var(--gray-5);
+    border-radius: 4px;
+
+    margin: 30px auto;
+
+}
+
+.containerInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabelOne {
+    color: var(--gray-2);
+
+    font-size: var(--text-3);
+
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-top: 20px;
+
+}
+
+
+
+.inputMainOne {
+    width: 280px;
+    max-width: 90%;
+    height: 52px;
+    border-radius: 8px;
+
+    border: none;
+
+    background-color: var(--gray-4);
+    color: var(--gray-3);
+
+    padding-left: 20px;
+}
+
+
+.smallMain {
+    color: var(--gray-5);
+
+    font-size: var(--text-3);
+
+
+    padding-top: 3px;
+}
+
+.containerInputTwo {
+    max-width: 90%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerInputValor {
+    display: flex;
+    align-items: center;
+
+    margin-right: 15px
+}
+
+.containerInputTipo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 30px;
+
+}
+
+.mainLabelTwo {
+    color: var(--gray-2);
+
+    font-size: var(--text-3);
+
+    padding-bottom: 5px;
+
+}
+
+.inputMainTwo {
+
+    background-color: var(--gray-4);
+
+    border: none;
+    border-radius: 8px;
+
+    padding-left: 20px;
+
+    color: var(--gray-3);
+
+    width: 57px;
+    height: 52px;
+
+    position: relative;
+}
+
+.containerSimbolo {
+    height: 52px;
+    width: 100px;
+}
+
+.simboloReal {
+    position: absolute;
+    top: 298px;
+    right: 208px
+}
+
+.containerSelect {
+    padding-top: 30px;
+
+    width: 60%;
+
+}
+
+.labelSelect {
+    font-size: var(--text-3);
+
+}
+
+.selectForm {
+    height: 52px;
+    width: 170px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--gray-4);
+
+    margin-top: 5px;
+}
+
+.optionSelect {
+    background-color: var(--gray-4);
+
+    border-radius: 8px;
+    border: none;
+
+}
+
+.buttonDash {
+    height: 52px;
+    width: 300px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--color-brand-1);
+    color: var(--gray-6);
+
+    margin: 20px auto;
+}
+
+@media (min-width: 1000px) {
+    .containerForm {
+        width: 50%;
+    }
+
+}
+

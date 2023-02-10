@@ -1,0 +1,39 @@
+.ulEmpety {
+    margin-bottom: 30px;
+}
+
+
+.listVazia {
+    background-color: var(--gray-4);
+    width: 90%;
+    height: 89px;
+
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    border-radius: 5px;
+}
+
+
+.divVaziaOne {
+    background-color: var(--gray-5);
+    width: 60%;
+    height: 13px;
+
+    margin-left: 10px;
+
+}
+
+
+.divVaziaTwo {
+    background-color: var(--gray-5);
+    width: 30%;
+    height: 13px;
+
+    margin-left: 10px;
+
+}

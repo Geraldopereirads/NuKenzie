@@ -1,0 +1,57 @@
+.listVazia {
+    background-color: var(--gray-4);
+    width: 90%;
+    height: 150px;
+
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    border-radius: 5px;
+    border-left: 2px solid green;
+}
+
+.descriptionCard {
+    font-size: var(--text-2);
+    font-weight: bold;
+
+    color: var(--gray-2);
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.OptionCard {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    color: var(--gray-2);
+
+    font-size: var(--text-3);
+}
+
+.priceCard {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    color: var(--gray-2);
+
+    font-size: var(--text-3);
+}
+.remove {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    background-color: var(--gray-5);
+    border-radius: 2px;
+
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.tittleDash {
+    font-size: var(--text-2);
+
+    padding-top: 30px;
+    padding-left:18px;
+}
+
+
+.tittleDashTwo {
+    padding-top: 30px;
+    padding-left:18px;
+
+    font-size: var(--title-4);
+
+    max-width: 90%;
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

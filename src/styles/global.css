@@ -1,0 +1,21 @@
+:root {
+  --color-brand-1: #fd377e;
+  --gray-1: #000000;
+  --gray-2: #212529;
+  --gray-3: #A8A8A8;
+  --gray-4: #f8f9fa;
+  --gray-5: #E9ECEF;
+  --gray-6: #ffffff;
+
+  --title-1: 3rem;
+  --title-2: 2.5rem;
+  --title-3: 2rem;
+  --title-4: 1.375rem;
+  --title-5: 1.125rem;
+
+  --text-1: 1.125rem;
+  --text-2: 1rem;
+  --text-3: 0.775rem;
+}
+
+
