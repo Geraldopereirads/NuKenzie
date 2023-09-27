@@ -9,9 +9,6 @@ export const List = ({ transicion, removeList }) => {
     <div className={styles.containerList}>
       <h3 className={styles.tittleDash}>Resumo financeiro</h3>
 
-      <h2 className={styles.tittleDashTwo}>
-        Você ainda não possui nenhum lançamento
-      </h2>
       <ul>
         {transicion.length > 0 ? (
           <>
@@ -20,7 +17,13 @@ export const List = ({ transicion, removeList }) => {
             ))}
           </>
         ) : (
-          <EmpetyCard />
+          <>
+            <h2 className={styles.tittleDashTwo}>
+              Você ainda não possui nenhum lançamento
+            </h2>
+
+            <EmpetyCard />
+          </>
         )}
       </ul>
     </div>

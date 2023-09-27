@@ -37,10 +37,10 @@ main {
 
 
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     .containerMainDash {
         display: flex;
-        width: 90%
+        width: 80%
     }
 
     .containerHeader {
